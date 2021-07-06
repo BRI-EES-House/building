@@ -1,8 +1,9 @@
 ﻿マスタ名称,英語名,変数名
 建物用途・室用途マスタ,Building Usage and Room Usage Master,m_BURU
-カレンダーパターンマスタ,CalendarPatternMaster,m_CP
+カレンダーパターンマスタ,Calendar Pattern Master,m_CP
 湯使用量マスタ,Hot Water Usage Master,m_HWU
 室同時使用率マスタ,Room Simultaneously Use Rate Master,m_RSUR
 照明発熱密度比率マスタ,Lighting Heat Generation Density Rate Master,m_LHGDR
 人体発熱密度比率マスタ,Human Heat Generation Density Rate Master,m_HHGDR
 機器発熱密度比率マスタ,Appliance Heat Generation Density Rate Master,m_AHGDR
+カレンダーマスタ,Calendar Master,m_CAL
