@@ -23,20 +23,7 @@
 
 表1 に建物用途・室用途に応じて定められるカレンダーパターンを示す。
 
-.. csv-table:: 表1 室同時使用率
-    :file: ./_static/csv/table_others_1.csv
-    :encoding: 'cp932'
-    :header-rows: 1
 
-.. csv-table:: 表2 カレンダーパターン
-    :file: ./_static/csv/table_others_2.csv
-    :encoding: 'cp932'
-    :header-rows: 1
-
-.. csv-table:: 表2 室使用パターン
-    :file: ./_static/csv/table_others_3.csv
-    :encoding: 'cp932'
-    :header-rows: 1
 
 ------------------------------------------------------------------------------------------------------------------------
 test
