@@ -1,3 +1,3 @@
 # building
 
-https://bri-ees-building-specification.readthedocs.io/ja/latest/
+https://bri-ees-building-spec.readthedocs.io/ja/latest/
