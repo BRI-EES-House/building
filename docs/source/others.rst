@@ -25,7 +25,7 @@
 
 .. csv-table:: 表1
     :file: ./_static/csv/table_others_1.csv
-    :encoding: 'cp932'
+    :encoding: cp932
     :header-rows: 1
 
 
