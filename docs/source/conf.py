@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Energy Efficiency Standard for Building Specification'
-copyright = '2021, BRI'
+copyright = '2021, Building Research Institute'
 author = 'BRI'
 
 # The full version, including alpha/beta/rc tags
@@ -43,6 +43,9 @@ templates_path = ['_templates']
 # Usually you set "language" from the command line for these cases.
 language = 'ja'
 
+latex_engine = 'platex'
+latex_use_xindy = False
+
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -54,7 +57,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
