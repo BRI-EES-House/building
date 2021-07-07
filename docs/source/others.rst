@@ -24,7 +24,7 @@
 表1 に建物用途・室用途に応じて定められるカレンダーパターンを示す。
 
 .. csv-table:: 表1
-    :file: ./_static/csv/table_others_1.csv
+    :file: ./_static/csv/table_others_1_alt.csv
     :encoding: cp932
     :header-rows: 1
 
