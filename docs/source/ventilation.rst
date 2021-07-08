@@ -86,10 +86,11 @@
 機械換気設備の年間一次エネルギー消費量 :math:`E_V` MJ / year は次式により表される。
 
 .. math::
-    E_V = \left( \sum_{i}{E_{V,i}} + \sum_{j}{E_{V,ac,j}} \right) \cdot f_{prime,e} \cdot 10^{-3}
+   :nowrap:
 
-.. math::
-    \tag{1}
+   \begin{align*}
+        E_V = \left( \sum_{i}{E_{V,i}} + \sum_{j}{E_{V,ac,j}} \right) \cdot f_{prime,e} \cdot 10^{-3} \tag{1}
+   \end{align*}
 
 :math:`E_V`
     | 機械換気設備の設計一次エネルギー消費量, MJ / year
@@ -111,10 +112,11 @@
 換気送風機 :math:`i` の年間電力消費量 :math:`E_{V,i}` は次式により表される。
 
 .. math::
-    E_{V,i} = \frac{P_{V,fan,rated,i}}{\eta_m} \cdot f_{V,ctrl,i} \cdot \max_r{(T_{V,i,r})}
+   :nowrap:
 
-.. math::
-    \tag{2}
+   \begin{align*}
+        E_{V,i} = \frac{P_{V,fan,rated,i}}{\eta_m} \cdot f_{V,ctrl,i} \cdot \max_r{(T_{V,i,r})} \tag{2}
+   \end{align*}
 
 :math:`E_{V,i}`
     | 換気送風機 :math:`i` の年間電力消費量, kWh / year
@@ -143,28 +145,32 @@
 換気代替空調機 :math:`j` の年間電力消費量　:math:`E_{V,ac,j}`　は次式で表される。
 
 .. math::
-    E_{V,ac,j} = \left( P_{V,ac,ref,j} + P_{V,ac,ref,fan,j} + P_{V,ac,fan,j} \right) \cdot \max_r{(T_{V,j,r})}
+   :nowrap:
+
+   \begin{align*}
+        E_{V,ac,j} = \left( P_{V,ac,ref,j} + P_{V,ac,ref,fan,j} + P_{V,ac,fan,j} \right) \cdot \max_r{(T_{V,j,r})} \tag{3-1}
+   \end{align*}
 
 .. math::
-    \tag{3a}
+   :nowrap:
+
+   \begin{align*}
+        P_{V,ac,ref,j} = \left( \frac{ q_{V,ac,ref,j} \cdot x_{V,ac,j} }{ 2.71 \cdot \eta_{V,ac,ref,j} } + \frac{ P_{V,ac,ref,pump,rated,j} }{ \eta_m } \right) \cdot r_{V,ac,ref,j}  \tag{3-2}
+   \end{align*}
 
 .. math::
-    P_{V,ac,ref,j} = \left( \frac{ q_{V,ac,ref,j} \cdot x_{V,ac,j} }{ 2.71 \cdot \eta_{V,ac,ref,j} } + \frac{ P_{V,ac,ref,pump,rated,j} }{ \eta_m } \right) \cdot r_{V,ac,ref,j}
+   :nowrap:
+
+   \begin{align*}
+        P_{V,ac,ref,fan,j} = \sum_{k=1}{ \left( \frac{ P_{V,ac,ref,fan,rated,j,k} }{ \eta_m } \cdot f_{V,ac,ref,fan,ctrl,j,k} \right) } \cdot r_{V,ac,ref,j}  \tag{3-3}
+   \end{align*}
 
 .. math::
-    \tag{3b}
+   :nowrap:
 
-.. math::
-    P_{V,ac,ref,fan,j} = \sum_{k=1}{ \left( \frac{ P_{V,ac,ref,fan,rated,j,k} }{ \eta_m } \cdot f_{V,ac,ref,fan,ctrl,j,k} \right) } \cdot r_{V,ac,ref,j}
-
-.. math::
-    \tag{3c}
-
-.. math::
-    P_{V,ac,fan,j} = \sum_{k=1}{ \left( \frac{ P_{V,ac,fan,rated,j,k} }{ \eta_m } \cdot f_{V,ac,fan,ctrl,j,k} \right) } \cdot r_{V,ac,fan,j}
-
-.. math::
-    \tag{3d}
+   \begin{align*}
+        P_{V,ac,fan,j} = \sum_{k=1}{ \left( \frac{ P_{V,ac,fan,rated,j,k} }{ \eta_m } \cdot f_{V,ac,fan,ctrl,j,k} \right) } \cdot r_{V,ac,fan,j}  \tag{3-4}
+   \end{align*}
 
 :math:`E_{V,ac,j}`
     | 換気代替空調機 :math:`j` の年間電力消費量, kWh
@@ -200,6 +206,9 @@
 
 電動機効率 :math:`\eta_m` は :math:`0.75` とする。
 
+.. raw:: latex
+
+    \newpage
 
 ========================================================================================================================
 付録 A 換気送風機・換気代替空調機に付属する送風機および換気代替空調機と併設される換気送風機の制御方法
@@ -216,10 +225,12 @@ A.1 送風機の制御方法に応じて定められる係数
 送風機の制御方法に応じて定められる係数 :math:`f_{V,ctrl}` は次式により表される。
 
 .. math::
-    f_{V,ctrl} = f_{V,ctrl,motor} \cdot f_{V,ctrl,inverter} \cdot f_{V,ctrl,volume}
+   :nowrap:
 
-.. math::
-    \tag{A.1}
+   \begin{align*}
+        f_{V,ctrl} = f_{V,ctrl,motor} \cdot f_{V,ctrl,inverter} \cdot f_{V,ctrl,volume} \tag{1}
+   \end{align*}
+
 
 :math:`f_{V,ctrl}`
     | 送風機の制御方法に応じて定められる係数, -
@@ -273,10 +284,6 @@ A.4 インバータの有無
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 test
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-========================================================================================================================
-脚注
-========================================================================================================================
 
 .. [#f1] 電動機効率は :math:`0.75` を想定しており、高効率電動機とは :math:`0.79 (= 0.75 \div 0.95)` 程度の効率を想定していることになる。
 
