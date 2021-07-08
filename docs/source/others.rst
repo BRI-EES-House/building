@@ -108,20 +108,3 @@
     :header-rows: 1
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-test
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. math::
-  q_{env} = q \times ( \theta_i - \theta_o ).
-
-:math:`q_{env}`
-  | Heat transmitted loss through the envelope to the outdoor air, W
-  | 室外への外皮を通じた熱損失, W
-:math:`\theta_i`
-  | Inside temperature, degree C
-  | 室内温度, ℃
-:math:`\theta_o`
-  | Outside temperature, degree C
-  | 室外温度, ℃
-
