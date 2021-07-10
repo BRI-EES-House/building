@@ -7,6 +7,8 @@
 建物用途・室用途マスタ,RoomNameShort3,No,室用途の略称3
 カレンダーパターンマスタ,UsageKey,Yes,建物・室の用途を表すキー
 カレンダーパターンマスタ,CalendarPattern,No,カレンダーパターン
+換気マスタ,UsageKey,Yes,建物・室の用途を表すキー
+換気マスタ,VentilationTime,No,年間換気時間
 湯使用量マスタ,UsageKey,Yes,建物・室の用途を表すキー
 湯使用量マスタ,Density,No,人体発熱参照値
 湯使用量マスタ,Standard,No,基準設定湯使用量

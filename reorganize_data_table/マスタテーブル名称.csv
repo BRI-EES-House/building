@@ -1,6 +1,7 @@
 ﻿マスタ名称,英語名,変数名,元のシート
 建物用途・室用途マスタ,Building Usage and Room Usage Master,m_BURU,ROOM_NAME
 カレンダーパターンマスタ,Calendar Pattern Master,m_CP,ROOM_SPEC
+換気マスタ,Ventilation Master,m_V,ROOM_SPEC
 湯使用量マスタ,Hot Water Usage Master,m_HWU,ROOM_SPEC
 室同時使用率マスタ,Room Simultaneously Use Rate Master,m_RSUR,ROOM_COND
 照明発熱密度比率マスタ,Lighting Heat Generation Density Rate Master,m_LHGDR,ROOM_COND
