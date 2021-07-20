@@ -52,14 +52,13 @@ latex_use_xindy = False
 # latex のプリアンブル部にセクションをカウントする深さを0（つまり番号をつけない）とした。
 # 図・表に勝手に図1とか表1とかの番号がつくためキャンセルさせた。
 latex_elements = {
+    'papersize': 'a4paper',
     'preamble': '''
 \\setcounter{secnumdepth}{0}
 \\usepackage[labelformat=empty,labelsep=none]{caption}
 
 '''
 }
-
-latex_paper_size = 'a4'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
