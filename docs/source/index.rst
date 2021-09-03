@@ -11,6 +11,7 @@ Welcome to Energy Efficiency Standard for Building Specification's documentation
    :maxdepth: 2
    :caption: Contents:
 
+   general
    ventilation
    dhw
    others
