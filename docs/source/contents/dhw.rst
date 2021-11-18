@@ -200,9 +200,9 @@
 
 給湯対象室、給湯箇所および給湯機器の関係の例を次図に表す。
 
-.. figure:: ./_static/fig/dhw_1.png
+.. figure:: ../_static/fig/dhw_1.png
     :align: center
-    :scale: 35 %
+    :scale: 45 %
 
     図1 給湯対象室、給湯箇所および給湯機器の関係の例
 
@@ -238,9 +238,9 @@
 
 給湯設備のエネルギー評価において必要とされる給湯箇所および給湯機器の仕様等を次図に示す。
 
-.. figure:: ./_static/fig/dhw_2.png
+.. figure:: ../_static/fig/dhw_2.png
     :align: center
-    :scale: 35 %
+    :scale: 45 %
 
     図2 給湯設備のエネルギー評価において必要とされる給湯箇所および給湯機器の仕様等
 
