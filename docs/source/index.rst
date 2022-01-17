@@ -14,6 +14,7 @@ Welcome to Energy Efficiency Standard for Building Specification's documentation
    /contents/general
    /contents/ventilation
    /contents/dhw
+   /contents/elevator
    /contents/others
 
 
