@@ -186,7 +186,7 @@
 昇降機系統 :math:`i` の年間運転時間 :math:`T_{EV,i}` は、照明設備の年間点灯時間と等しいとする。 
 建物用途名称及び室用途名称に応じて データ「照明設備の年間点灯時間」（csv/table_elevator_1.csv）で定められることとする。
 
-.. figure:: ../_static/fig/elevator_1.png
+.. figure:: ./_static/fig/elevator_1.png
     :align: center
     :scale: 45 %
 
