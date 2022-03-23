@@ -2,3 +2,4 @@ docs/build/
 reorganize_data_table/.ipynb_checkpoints/
 reorganize_data_table/__pycache__/
 .idea/
+.vscode/
