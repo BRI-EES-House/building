@@ -73,10 +73,10 @@
       - 単位
     * - :math:`E_{EV}`
       - 昇降機の年間一次エネルギー消費量
-      - MJ / year
+      - MJ/year
     * - :math:`E_{EV}`
       - 昇降機系統の年間消費電力量
-      - kWh / year
+      - kWh/year
     * - :math:`f_{prime,e}`
       - 電気の量1キロワット時を熱量に換算する係数
       - MJ/kwh
