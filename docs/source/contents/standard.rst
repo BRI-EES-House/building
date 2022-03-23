@@ -300,7 +300,7 @@
 昇降機系統 :math:`i` の年間運転時間 :math:`T_{EV,i}` は、照明設備の年間点灯時間と等しいとする。 
 建物用途名称及び室用途名称に応じて データ「照明設備の年間点灯時間」（csv/table_elevator_1.csv）で定められることとする。
 
-.. figure:: ../_static/fig/elevator_1.png
+.. figure:: ./_static/fig/elevator_1.png
     :align: center
     :scale: 45 %
 
@@ -316,6 +316,8 @@
 省エネ基準地域区分および空調計算対象室 :math:`r` の建物用途名称及び室用途名称に応じて
 データ「空気調和設備の床面積あたりの基準一次エネルギー消費量」（csv/table_standard_Appendix_A.csv）で定められることとする。
 
-
+.. figure:: ./_static/fig/standard_1.png
+    :align: center
+    :scale: 45 %
 
     図2 データ「空気調和設備の床面積あたりの基準一次エネルギー消費量」（例示：先頭10行のみ示す）
